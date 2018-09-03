@@ -1,0 +1,16 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div class="app" style="text-align:center">
+  <h1 class="title">
+    Welcome to {{ title }}.
+  </h1>
+  <h3>This is simple date command sample.</h3>
+  <h3>Let's Copy & Paste!</h3>
+  <div class="wrapper">
+    <div (mouseenter) ="mouseEnter() "
+         (mouseleave) ="mouseLeave()"
+         class="clip-text clip-text_fourteen clip-text--cover">
+      sudo date -s "{{dateString}}"
+    </div>
+  </div>
+  <h5>If hover it, it stop update.</h5>
+</div>
